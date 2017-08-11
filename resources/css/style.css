@@ -1,0 +1,50 @@
+html{
+  font-size: 18px;
+  font-family: Helvetica;
+  width: 960px;
+}
+
+
+/*LOGO*/
+.logo{
+  border: 10px solid purple;
+}
+
+/*BANNER*/
+.banner{
+  border:10px solid green;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+}
+
+/*NAVIGATION*/
+.navigation{
+  border:10px solid blue;
+
+}
+
+/*PRODUCT GRID*/
+.product{
+  border: 10px solid pink;
+
+}
+
+/*LOCATION*/
+.location{
+  border: 10px solid yellow;
+}
+
+
+/*HOURS*/
+
+.hours{
+  border: 10px solid grey;
+
+}
+
+footer{
+  border: 10px solid red;
+
+}
