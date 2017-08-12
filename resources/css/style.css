@@ -85,6 +85,9 @@ html{
 }
 
 footer{
-  border: 10px solid red;
-
+  color: white;
+  text-align: left;
+  background-color: black;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
