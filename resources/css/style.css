@@ -1,7 +1,7 @@
 html{
   font-size: 18px;
   font-family: Helvetica;
-  width: 960px;
+  /*width: 960px;*/
 }
 
 
@@ -27,6 +27,31 @@ html{
   background-repeat: none;
   background-position: center;
   background-size: cover;
+  height: 25rem;
+}
+
+.bannerblock{
+  background-color: black;
+  margin-top: 9rem;
+  margin-left:7rem;
+  padding-top:2rem;
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+  width: 20rem;
+}
+
+.banner h4{
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.banner h1{
+  color: white;
+  font-family: Helvetica;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 /*NAVIGATION*/
