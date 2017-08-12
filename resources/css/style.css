@@ -71,17 +71,22 @@ html{
 
 }
 
-/*LOCATION*/
-.location{
-  border: 10px solid yellow;
+/*STORE INFO*/
+.store-info{
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
 }
 
+.location, .hours{
+  width: 35%;
+}
 
-/*HOURS*/
-
-.hours{
-  border: 10px solid grey;
-
+.location h3, .hours h3{
+  color: white;
+  background-color: black;
+  padding: 1rem 2rem;
 }
 
 footer{
