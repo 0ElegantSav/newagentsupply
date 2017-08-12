@@ -22,7 +22,8 @@ html{
 
 /*BANNER*/
 .banner{
-  border:10px solid green;
+  /*border:10px solid green;*/
+  border: 10px solid green;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
   background-repeat: none;
   background-position: center;
@@ -57,7 +58,11 @@ html{
 /*NAVIGATION*/
 .navigation{
   border:10px solid blue;
-
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: firebrick;
+  padding: 0.75px 0;
 }
 
 /*PRODUCT GRID*/
