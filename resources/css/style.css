@@ -1,9 +1,8 @@
 html{
   font-size: 18px;
   font-family: Helvetica;
-  /*width: 960px;*/
+  background-color: black;
 }
-
 
 /*LOGO*/
 .logo{
@@ -12,6 +11,8 @@ html{
   color:white;
   background-color: black;
   padding: 0.66rem 0;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .logo img{
@@ -28,6 +29,8 @@ html{
   background-position: center;
   background-size: cover;
   height: 25rem;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .bannerblock{
@@ -61,6 +64,8 @@ html{
   color: white;
   background-color: firebrick;
   padding: 0.75rem 0;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 /*PRODUCT GRID*/
@@ -68,6 +73,9 @@ html{
   display: flex;
   margin-top: 3rem;
   justify-content: space-between;
+  background-color: white;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .container-block{
@@ -111,7 +119,10 @@ html{
   margin-top: 3rem;
   display: flex;
   justify-content: space-between;
+  background-color: white;
   margin-bottom: 4rem;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .location, .hours{
@@ -130,4 +141,33 @@ footer{
   background-color: black;
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/*RESPONSIVE DESIGN*/
+
+@media only screen and (max-width: 1024px){
+  .container-block{
+    width:47%;
+  }
+  .product{
+    overflow:hidden;
+  }
+
+  .location, .hours{
+    width:35%;
+  }
+}
+
+@media only screen and (max-width:470px){
+  .banner{
+    height:15rem;
+  }
+  .container-block, .glasses{
+    width:90%;
+  }
+  footer{
+    text-align: center;
+  }
 }
